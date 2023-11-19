@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "041fedc3-6584-4e8d-847b-40c0b81e9e5d",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/script/ui/fight/readyGo.js",
+    "simulateGlobals": []
+  }
+}

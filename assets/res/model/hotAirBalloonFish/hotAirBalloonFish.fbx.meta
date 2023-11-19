@@ -1,0 +1,117 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53",
+  "files": [],
+  "subMetas": {
+    "dbf3b": {
+      "importer": "gltf-mesh",
+      "uuid": "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@dbf3b",
+      "displayName": "",
+      "id": "dbf3b",
+      "name": "hotAirBalloonFish.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 6938
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "72fa9": {
+      "importer": "gltf-mesh",
+      "uuid": "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@72fa9",
+      "displayName": "",
+      "id": "72fa9",
+      "name": "hotAirBalloonFish_propeller.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 450
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea139": {
+      "importer": "gltf-material",
+      "uuid": "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@ea139",
+      "displayName": "",
+      "id": "ea139",
+      "name": "hotAirBalloonFish.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac464": {
+      "importer": "gltf-scene",
+      "uuid": "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@ac464",
+      "displayName": "",
+      "id": "ac464",
+      "name": "hotAirBalloonFish.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@ac464",
+    "assetFinder": {
+      "meshes": [
+        "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@dbf3b",
+        "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@72fa9"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@ea139"
+      ],
+      "scenes": [
+        "0b31ca25-4ccd-4a37-93cf-a5a8ff49ed53@ac464"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

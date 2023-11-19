@@ -1,0 +1,34 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+
+    buildscript {
+        repositories {
+            maven { url 'https://developer.huawei.com/repo/' }
+            google()
+            jcenter()
+            mavenCentral()
+        }
+        dependencies {
+            classpath 'com.android.tools.build:gradle:4.1.0'
+
+
+            // 增加AGC插件配置，请您参见AGC插件依赖关系选择合适的AGC插件版本。
+            classpath 'com.huawei.agconnect:agcp:1.6.0.300'
+            classpath 'com.huawei.hmf:mdp:1.5.2.206'
+        }
+    }
+
+
+    allprojects {
+        repositories {
+            maven { url 'https://developer.huawei.com/repo/' }
+            google()
+            jcenter()
+        }
+    }
+}
+
+
+apply from: NATIVE_DIR +"/build.gradle"

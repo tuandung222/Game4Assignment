@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "d5c7efbb-b2b1-4245-941f-009be3c9110a",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/script/framework/util/staticBatch.js",
+    "simulateGlobals": []
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "757ab734-7153-48a9-a0c4-96d30191eea9",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 2,
+  "_defines": [
+    {
+      "USE_TEXTURE": true,
+      "USE_MASK_COLOR": true,
+      "USE_TEXTURE_MOVE": true,
+      "USE_NOISE_TEXTURE": true,
+      "USE_NOISE_MOVE": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "maskTexture": {
+        "__uuid__": "e6e8d20e-e59b-4b10-b030-11bf2729f112@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "noiseTexture": {
+        "__uuid__": "ac75e5e0-4624-44ae-938f-956420ab1734@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "mainTexture": {
+        "__uuid__": "ac75e5e0-4624-44ae-938f-956420ab1734@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "textureMoveSpeed": {
+        "__type__": "cc.Vec2",
+        "x": 0.6,
+        "y": 0.1
+      },
+      "tilingOffset": {
+        "__type__": "cc.Vec4",
+        "x": 1.2,
+        "y": 2,
+        "z": 0,
+        "w": 0
+      },
+      "maskTilingOffset": {
+        "__type__": "cc.Vec4",
+        "x": 1.5,
+        "y": 1,
+        "z": -0.4,
+        "w": 0
+      },
+      "noiseStrength": {
+        "__type__": "cc.Vec2",
+        "x": 0.1,
+        "y": 0.1
+      },
+      "noiseMoveSpeed": {
+        "__type__": "cc.Vec2",
+        "x": -0.3,
+        "y": 0.1
+      },
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 102,
+        "g": 253,
+        "b": 73,
+        "a": 30
+      }
+    }
+  ]
+}

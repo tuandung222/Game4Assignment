@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "507b9317-6f7e-4f19-b27a-c9e43a0fb1d5",
+  "files": [],
+  "subMetas": {
+    "e04d0": {
+      "importer": "gltf-mesh",
+      "uuid": "507b9317-6f7e-4f19-b27a-c9e43a0fb1d5@e04d0",
+      "displayName": "",
+      "id": "e04d0",
+      "name": "busSign.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 268
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "434dd": {
+      "importer": "gltf-material",
+      "uuid": "507b9317-6f7e-4f19-b27a-c9e43a0fb1d5@434dd",
+      "displayName": "",
+      "id": "434dd",
+      "name": "busSign.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "80ac1": {
+      "importer": "gltf-scene",
+      "uuid": "507b9317-6f7e-4f19-b27a-c9e43a0fb1d5@80ac1",
+      "displayName": "",
+      "id": "80ac1",
+      "name": "busSign.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "507b9317-6f7e-4f19-b27a-c9e43a0fb1d5@80ac1",
+    "assetFinder": {
+      "meshes": [
+        "507b9317-6f7e-4f19-b27a-c9e43a0fb1d5@e04d0"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "507b9317-6f7e-4f19-b27a-c9e43a0fb1d5@434dd"
+      ],
+      "scenes": [
+        "507b9317-6f7e-4f19-b27a-c9e43a0fb1d5@80ac1"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

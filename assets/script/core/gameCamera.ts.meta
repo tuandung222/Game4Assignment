@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "3010456d-2f65-4f0c-a1d3-15a9db963641",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/script/fight/gameCamera.js",
+    "simulateGlobals": []
+  }
+}

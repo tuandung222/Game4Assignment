@@ -1,0 +1,30 @@
+{
+  "__version__": "1.0.6",
+  "layer": [
+    {
+      "name": "canvas_19",
+      "value": 524288
+    },
+    {
+      "name": "transition",
+      "value": 1
+    }
+  ],
+  "general": {
+    "designResolution": {
+      "width": 1280,
+      "height": 720,
+      "fitHeight": true,
+      "fitWidth": true
+    },
+    "highQuality": true
+  },
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "script": {
+    "preserveSymlinks": true
+  }
+}

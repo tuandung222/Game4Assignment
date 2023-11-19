@@ -1,0 +1,133 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ba6289bc-d60b-4795-91eb-c3e295e52df7",
+  "files": [],
+  "subMetas": {
+    "63569": {
+      "importer": "gltf-mesh",
+      "uuid": "ba6289bc-d60b-4795-91eb-c3e295e52df7@63569",
+      "displayName": "",
+      "id": "63569",
+      "name": "skyBox.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 960
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae49a": {
+      "importer": "texture",
+      "uuid": "ba6289bc-d60b-4795-91eb-c3e295e52df7@ae49a",
+      "displayName": "",
+      "id": "ae49a",
+      "name": "skyBox.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/map/scene/skyBoxTex/skyBox1.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b79a0": {
+      "importer": "gltf-material",
+      "uuid": "ba6289bc-d60b-4795-91eb-c3e295e52df7@b79a0",
+      "displayName": "",
+      "id": "b79a0",
+      "name": "skyBox.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4a72": {
+      "importer": "gltf-scene",
+      "uuid": "ba6289bc-d60b-4795-91eb-c3e295e52df7@d4a72",
+      "displayName": "",
+      "id": "d4a72",
+      "name": "skyBox.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "skyBox",
+        "uri": "db://assets/res/map/scene/skyBoxTex/skyBox1.jpg"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "ba6289bc-d60b-4795-91eb-c3e295e52df7@d4a72",
+    "assetFinder": {
+      "meshes": [
+        "ba6289bc-d60b-4795-91eb-c3e295e52df7@63569"
+      ],
+      "skeletons": [],
+      "textures": [
+        "ba6289bc-d60b-4795-91eb-c3e295e52df7@ae49a"
+      ],
+      "materials": [
+        "ba6289bc-d60b-4795-91eb-c3e295e52df7@b79a0"
+      ],
+      "scenes": [
+        "ba6289bc-d60b-4795-91eb-c3e295e52df7@d4a72"
+      ]
+    },
+    "dumpMaterials": false,
+    "materialDumpDir": "db://assets/model/cat/skyBoxTex",
+    "fbx": {
+      "unitConversion": "hierarchy-level",
+      "preferLocalTimeSpan": false,
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

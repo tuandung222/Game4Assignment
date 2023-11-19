@@ -1,0 +1,136 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "225bf47f-5b74-4b11-aefb-eb92853334e1",
+  "files": [],
+  "subMetas": {
+    "c2546": {
+      "importer": "gltf-mesh",
+      "uuid": "225bf47f-5b74-4b11-aefb-eb92853334e1@c2546",
+      "displayName": "",
+      "id": "c2546",
+      "name": "vat1.mesh",
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 134
+      }
+    },
+    "b6c04": {
+      "importer": "gltf-embeded-image",
+      "uuid": "225bf47f-5b74-4b11-aefb-eb92853334e1@b6c04",
+      "displayName": "",
+      "id": "b6c04",
+      "name": "vat1.jpg.image",
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      }
+    },
+    "df19c": {
+      "importer": "texture",
+      "uuid": "225bf47f-5b74-4b11-aefb-eb92853334e1@df19c",
+      "displayName": "",
+      "id": "df19c",
+      "name": "vat1.texture",
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "225bf47f-5b74-4b11-aefb-eb92853334e1@b6c04"
+      }
+    },
+    "e10b1": {
+      "importer": "gltf-scene",
+      "uuid": "225bf47f-5b74-4b11-aefb-eb92853334e1@e10b1",
+      "displayName": "",
+      "id": "e10b1",
+      "name": "vat1.prefab",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "vat1.jpg",
+        "uri": "225bf47f-5b74-4b11-aefb-eb92853334e1@b6c04"
+      }
+    ],
+    "redirect": "225bf47f-5b74-4b11-aefb-eb92853334e1@e10b1",
+    "assetFinder": {
+      "meshes": [
+        "225bf47f-5b74-4b11-aefb-eb92853334e1@c2546"
+      ],
+      "skeletons": [],
+      "textures": [
+        "225bf47f-5b74-4b11-aefb-eb92853334e1@df19c"
+      ],
+      "materials": [
+        "d7cde6cb-1219-4bfc-be90-aa4303669179"
+      ],
+      "scenes": [
+        "225bf47f-5b74-4b11-aefb-eb92853334e1@e10b1"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/res/model/vat",
+    "legacyFbxImporter": true,
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "548c471e-b973-497f-b38c-4e649ece39c8",
+  "files": [],
+  "subMetas": {
+    "37cce": {
+      "importer": "gltf-mesh",
+      "uuid": "548c471e-b973-497f-b38c-4e649ece39c8@37cce",
+      "displayName": "",
+      "id": "37cce",
+      "name": "hotAirBalloonRed.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1482
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3b456": {
+      "importer": "gltf-material",
+      "uuid": "548c471e-b973-497f-b38c-4e649ece39c8@3b456",
+      "displayName": "",
+      "id": "3b456",
+      "name": "hotAirBalloonRed.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "51c98": {
+      "importer": "gltf-scene",
+      "uuid": "548c471e-b973-497f-b38c-4e649ece39c8@51c98",
+      "displayName": "",
+      "id": "51c98",
+      "name": "hotAirBalloonRed.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "redirect": "548c471e-b973-497f-b38c-4e649ece39c8@51c98",
+    "assetFinder": {
+      "meshes": [
+        "548c471e-b973-497f-b38c-4e649ece39c8@37cce"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "548c471e-b973-497f-b38c-4e649ece39c8@3b456"
+      ],
+      "scenes": [
+        "548c471e-b973-497f-b38c-4e649ece39c8@51c98"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

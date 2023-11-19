@@ -1,0 +1,12 @@
+{
+  "ver": "4.0.23",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "03627329-603f-4643-9729-e1173bee741a",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/script/fight/coinTipsManager.js",
+    "simulateGlobals": []
+  }
+}

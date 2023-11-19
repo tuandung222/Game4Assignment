@@ -1,0 +1,195 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d0cacc9d-aa17-482a-8284-a748eeb01492",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "d0cacc9d-aa17-482a-8284-a748eeb01492@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 6
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dbf3b": {
+      "importer": "gltf-mesh",
+      "uuid": "d0cacc9d-aa17-482a-8284-a748eeb01492@dbf3b",
+      "displayName": "",
+      "id": "dbf3b",
+      "name": "hotAirBalloonFish.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 6938
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "72fa9": {
+      "importer": "gltf-mesh",
+      "uuid": "d0cacc9d-aa17-482a-8284-a748eeb01492@72fa9",
+      "displayName": "",
+      "id": "72fa9",
+      "name": "hotAirBalloonFish_propeller.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 450
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "d0cacc9d-aa17-482a-8284-a748eeb01492@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "d0cacc9d-aa17-482a-8284-a748eeb01492@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 1
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c28f0": {
+      "importer": "gltf-material",
+      "uuid": "d0cacc9d-aa17-482a-8284-a748eeb01492@c28f0",
+      "displayName": "",
+      "id": "c28f0",
+      "name": "Material #26.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "872f6": {
+      "importer": "gltf-scene",
+      "uuid": "d0cacc9d-aa17-482a-8284-a748eeb01492@872f6",
+      "displayName": "",
+      "id": "872f6",
+      "name": "hotAirBalloonFishAni.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "redirect": "d0cacc9d-aa17-482a-8284-a748eeb01492@872f6",
+    "assetFinder": {
+      "meshes": [
+        "d0cacc9d-aa17-482a-8284-a748eeb01492@dbf3b",
+        "d0cacc9d-aa17-482a-8284-a748eeb01492@72fa9"
+      ],
+      "skeletons": [
+        "d0cacc9d-aa17-482a-8284-a748eeb01492@30732",
+        "d0cacc9d-aa17-482a-8284-a748eeb01492@f1394"
+      ],
+      "textures": [],
+      "materials": [
+        "d0cacc9d-aa17-482a-8284-a748eeb01492@c28f0"
+      ],
+      "scenes": [
+        "d0cacc9d-aa17-482a-8284-a748eeb01492@872f6"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

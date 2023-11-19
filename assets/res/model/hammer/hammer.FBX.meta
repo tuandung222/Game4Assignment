@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3dcec454-b424-4930-9476-7002bbec908f",
+  "files": [],
+  "subMetas": {
+    "7057b": {
+      "importer": "gltf-mesh",
+      "uuid": "3dcec454-b424-4930-9476-7002bbec908f@7057b",
+      "displayName": "",
+      "id": "7057b",
+      "name": "hammer.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 888
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "56aad": {
+      "importer": "gltf-material",
+      "uuid": "3dcec454-b424-4930-9476-7002bbec908f@56aad",
+      "displayName": "",
+      "id": "56aad",
+      "name": "hammer.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8644a": {
+      "importer": "gltf-scene",
+      "uuid": "3dcec454-b424-4930-9476-7002bbec908f@8644a",
+      "displayName": "",
+      "id": "8644a",
+      "name": "hammer.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "3dcec454-b424-4930-9476-7002bbec908f@8644a",
+    "assetFinder": {
+      "meshes": [
+        "3dcec454-b424-4930-9476-7002bbec908f@7057b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3dcec454-b424-4930-9476-7002bbec908f@56aad"
+      ],
+      "scenes": [
+        "3dcec454-b424-4930-9476-7002bbec908f@8644a"
+      ]
+    },
+    "dumpMaterials": false,
+    "legacyFbxImporter": true,
+    "materialDumpDir": "db://assets/res/model/hammer/Materials_hammer",
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

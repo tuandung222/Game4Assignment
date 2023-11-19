@@ -1,0 +1,80 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "25abbc95-8d65-436a-ad50-8ab1949b8f9a",
+  "files": [],
+  "subMetas": {
+    "0692d": {
+      "importer": "gltf-mesh",
+      "uuid": "25abbc95-8d65-436a-ad50-8ab1949b8f9a@0692d",
+      "displayName": "",
+      "id": "0692d",
+      "name": "Plane002.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 32
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "61f71": {
+      "importer": "gltf-scene",
+      "uuid": "25abbc95-8d65-436a-ad50-8ab1949b8f9a@61f71",
+      "displayName": "",
+      "id": "61f71",
+      "name": "VSmodel.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "25abbc95-8d65-436a-ad50-8ab1949b8f9a@61f71",
+    "assetFinder": {
+      "meshes": [
+        "25abbc95-8d65-436a-ad50-8ab1949b8f9a@0692d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "25abbc95-8d65-436a-ad50-8ab1949b8f9a@61f71"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}
